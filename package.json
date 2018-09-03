@@ -1,0 +1,27 @@
+{
+  "name": "@jorgenevens/swagdoc",
+  "version": "1.0.0",
+  "description": "Easy local swagger editor",
+  "main": "swagger-docs.js",
+  "bin": {
+    "swagger-editor": "./swagger-docs.js",
+    "swag": "./swagger-docs.js",
+    "swagdoc": "./swagger-docs.js"
+  },
+  "scripts": {
+    "start": "node ./swagger-docs.js",
+    "test": "npm -s run test:lint",
+    "test:lint": "eslint ."
+  },
+  "author": "Jorgen Evens <jorgen@evens.eu>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.5.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "open": "0.0.5",
+    "serve-index": "^1.9.1",
+    "swagger-editor-dist": "^3.6.9"
+  }
+}
