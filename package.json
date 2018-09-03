@@ -1,6 +1,6 @@
 {
   "name": "@jorgenevens/swagdoc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Easy local swagger editor",
   "main": "swagger-docs.js",
   "engines": {
