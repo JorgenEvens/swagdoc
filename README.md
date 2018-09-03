@@ -1,7 +1,8 @@
 # swagdoc
 
 [![CircleCI](https://circleci.com/gh/jorgenevens/swagdoc/tree/master.svg?style=shield)](https://circleci.com/gh/jorgenevens/swagdoc/tree/master)
-[![Version](https://img.shields.io/node/v/@jorgenevens/swagdoc.svg)](https://npmjs.org/@jorgenevens/swagdoc)
+[![Node](https://img.shields.io/node/v/@jorgenevens/swagdoc.svg)](https://npmjs.org/@jorgenevens/swagdoc)
+[![NPM](https://img.shields.io/npm/v/@jorgenevens/swagdoc.svg)](https://npmjs.org/@jorgenevens/swagdoc)
 
 ## Usage
 
