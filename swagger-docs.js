@@ -58,7 +58,7 @@ app.get('/editor/spec', function(req, res, next) {
 // serve references
 app.use('/ref', express.static(SOURCE));
 
-app.get('*.yaml', function(req, res) {
+app.get('*.ya?ml', function(req, res) {
     var url = URL.parse(req.url);
     var file = path.join(SOURCE, url.pathname);
 
